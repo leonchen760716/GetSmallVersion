@@ -1,0 +1,39 @@
+exclude_dirs:
+  - .git
+  - __pycache__
+  - Build
+  - BIOS
+  - Conf
+
+exclude_files:
+  - README.md
+  - LICENSE
+  - CTAGS.EXE
+  - KernelBuild.bat
+  - OtherBuild.bat
+  - TAGC.BAT
+  - TotalBuild.bat
+  - ArmBuild.bat
+  - ArmBuild64.bat
+  - BirchStreamBuild.bat
+  - callArmBuild.bat
+  - callArmBuild64.bat
+  - EmuBuild.bat
+  - IA32X64Build.bat
+  - NormalBuild.bat
+  - QemuBuild.bat
+  - RasBuild.bat
+  - ProjectBuild.bat
+  - .gitmodules
+  - UtAppBuild.bat
+
+exclude_exts:
+  - .log
+  - .tmp
+  - .pui
+  - .prj
+  - .tag
+
+verbose: true
+
+update_copyright: true
